@@ -1,0 +1,84 @@
+.list-of-four {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 76px;
+  background-color: whitesmoke;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list-of-four__introduction {
+  display: flex;
+  flex-direction: column;
+  padding-right: 76px;
+}
+
+.list-of-four__introduction__title {
+  font-size: 12px;
+  line-height: 2.5em;
+  padding-top: 45px;
+  padding-left: 80px;
+}
+
+.list-of-four__introduction-list {
+  line-height: 2.6em;
+  text-indent: 2.5em;
+}
+
+.list-of-four__introduction-list li {
+  font-size: 14px;
+  list-style: none;
+}
+
+.list-of-four__introduction-list a:link,
+.list-of-four__introduction-list a:visited,
+.copyright__data a:link,
+.copyright__data a:visited {
+  color: black;
+}
+
+.list-of-four__introduction-list a,
+.copyright__data a {
+  text-decoration: none;
+}
+
+.list-of-four__introduction-list a:hover,
+.copyright__data a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 24px 0;
+  margin-left: 80px;
+  font-size: 14px;
+  margin-top: 52px;
+}
+
+.copyright__data {
+  margin-right: 10px;
+}
+
+.copyright__data span {
+  margin: 0 3px;
+}
+
+.copyright__lang__kr {
+  margin-right: 24px;
+  margin-left: 6px;
+}
+
+.copyright__lang {
+  margin-right: 50px;
+}
+
+.copyright__lang__krw {
+  margin-left: 6px;
+}
+
+.copyright__icons i {
+  margin: 0 10px;
+}
