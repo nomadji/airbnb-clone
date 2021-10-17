@@ -1,2 +1,3 @@
-TItle: airbnb-clone
-Subtitle: html, css practice
+# Airbnb clone
+
+HTML, CSS Practice!
